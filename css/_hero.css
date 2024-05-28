@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(100, 100, 100);
-  background-image: url('/img/hero-bg.webp');
+  background-image: url('../img/hero-bg.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
