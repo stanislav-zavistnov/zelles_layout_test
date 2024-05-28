@@ -1,0 +1,128 @@
+.join {
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+.join-card {
+  padding: 38px 58px;
+  border-radius: 9px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  box-shadow: 0 5px 29px 0 rgba(0, 0, 0, 0.08);
+}
+
+.join-card-img {
+  border-radius: 8px;
+  min-height: 289px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/join.webp');
+}
+
+.join-card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-card-text__title {
+  margin-bottom: 24px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 140%;
+  color: var(--black);
+}
+
+.join-card-text__descr {
+  margin-bottom: 34px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 145%;
+  color: var(--accent-green);
+}
+
+.join-card-text__btn {
+  padding: 15px 28px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: fit-content;
+  border-radius: 9px;
+  border: 1px solid var(--green-light);
+  color: var(--green-light);
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 145%;
+  transition: color .3s ease-in-out, border-color .3s ease-in-out;
+}
+
+.join-card-text__btn:hover,
+.join-card-text__btn:focus {
+  outline: none;
+  color: var(--green-dark);
+  border-color: var(--green-dark);
+  transition: color .3s ease-in-out, border-color .3s ease-in-out;
+}
+
+.join-card-text__btn-text {
+  display: block;
+  margin-right: 12px;
+}
+
+.join-card-text__btn-arrow {
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--green-light);
+  border-bottom: 2px solid var(--green-light);
+  transform: rotate(315deg);
+}
+
+@media (max-width: 1440px) {
+
+  .join {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .join-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .join-card {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .join-card-img {
+    max-height: 155px;
+    min-height: 155px;
+  }
+
+  .join-card-text__title {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .join-card-text__descr {
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+
+  .join-card-text__btn {
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+
+  .join-card-text__btn-arrow {
+    width: 5px;
+    height: 5px;
+  }
+}

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zelles-test</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/burger.js"></script>
+</head>
+
+<body class="body">
+  <h1 class="visually-hidden">
+    PICTURA - база изображений и gif.
+  </h1>
+  <div class="burger-background-blur"></div>
+  <header class="header container">
+    <div class="logo-wrap">
+      <a class="logo-text" href="">
+        PICTURA
+      </a>
+      <a class="logo-img" href="">
+        <img src="img/logo.svg" alt="logo">
+      </a>
+    </div>
+    <nav class="header-nav">
+      <ul class="nav-list list-reset">
+        <li class="nav-list__item">
+          <a class="nav-list__item-link" href="">
+            <span class="nav-list__item-link-text">Фотографии</span>
+            <span class="nav-list__item-link-arrow"></span>
+          </a>
+        </li>
+        <li class="nav-list__item">
+          <a class="nav-list__item-link" href="">
+            <span class="nav-list__item-link-text">Дизайн</span>
+            <span class="nav-list__item-link-arrow"></span>
+          </a>
+        </li>
+        <li class="nav-list__item">
+          <a class="nav-list__item-link" href="">
+            <span class="nav-list__item-link-text">GIF</span>
+            <span class="nav-list__item-link-arrow"></span>
+          </a>
+        </li>
+        <li class="nav-list__item">
+          <a class="nav-list__item-link" href="">
+            <span class="nav-list__item-link-text">О нас</span>
+            <span class="nav-list__item-link-arrow"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-btn-wrap">
+      <button class="btn-reset header-btn-entrance">
+        Войти
+      </button>
+      <button class="btn-reset header-btn-create">
+        Создать аккаунт
+      </button>
+    </div>
+    <div class="burger-menu">
+      <button class="burger-button btn-reset">
+        <span class="burger-button__line burger-button__line--top"></span>
+        <span class="burger-button__line burger-button__line--middle"></span>
+        <span class="burger-button__line burger-button__line--bottom"></span>
+      </button>
+      <div class="burger-nav-wrap">
+        <nav class="burger-nav">
+          <button class="burger-close-button btn-reset">
+            <span class="burger-close-button__line burger-close-button__line--1"></span>
+            <span class="burger-close-button__line burger-close-button__line--2"></span>
+          </button>
+          <ul class="burger-nav-list list-reset">
+            <li class="burger-nav-list__item">
+              <a class="burger-nav-list__item-link" href="">
+                Фотографии
+              </a>
+            </li>
+            <li class="burger-nav-list__item">
+              <a class="burger-nav-list__item-link" href="">
+                Дизайн
+              </a>
+            </li>
+            <li class="burger-nav-list__item">
+              <a class="burger-nav-list__item-link" href="">
+                GIF-изображения
+              </a>
+            </li>
+            <li class="burger-nav-list__item">
+              <a class="burger-nav-list__item-link" href="">
+                О нас
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero-wrap">
+      <div class="hero">
+        <div class="hero-content">
+          <h2 class="hero-title">
+            Найдите ресурсы под любые запросы!
+          </h2>
+          <div class="hero-search-wrap">
+            <form class="hero-form">
+              <input class="hero-form__input" type="text" placeholder="Поиск изображений...">
+              <button class="btn-reset hero-form__btn" type="submit">
+                <svg class="btn-reset hero-form__btn-img" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.6794 21.9976L12.7894 14.1076C12.1894 14.6276 11.4898 15.0326 10.6906 15.3226C9.8914 15.6126 9.04099 15.7576 8.13935 15.7576C5.97611 15.7576 4.1453 15.0076 2.64692 13.5076C1.14854 12.0076 0.399353 10.1976 0.399353 8.07758C0.399353 5.95758 1.14935 4.14758 2.64935 2.64758C4.14935 1.14758 5.96435 0.397583 8.09435 0.397583C10.2244 0.397583 12.0344 1.14758 13.5244 2.64758C15.0144 4.14758 15.7594 5.95908 15.7594 8.08208C15.7594 8.93908 15.6194 9.76758 15.3394 10.5676C15.0594 11.3676 14.6394 12.1176 14.0794 12.8176L21.9994 20.6776L20.6794 21.9976ZM8.10935 13.9576C9.73435 13.9576 11.1156 13.3826 12.2531 12.2326C13.3906 11.0826 13.9594 9.69758 13.9594 8.07758C13.9594 6.45758 13.3906 5.07258 12.2531 3.92258C11.1156 2.77258 9.73435 2.19758 8.10935 2.19758C6.46769 2.19758 5.07227 2.77258 3.92309 3.92258C2.77393 5.07258 2.19935 6.45758 2.19935 8.07758C2.19935 9.69758 2.77393 11.0826 3.92309 12.2326C5.07227 13.3826 6.46769 13.9576 8.10935 13.9576Z"
+                    fill="#029992" />
+                </svg>
+              </button>
+            </form>
+            <button class="btn-reset hero-select">
+              <span class="hero-select__text">
+                Все ресурсы
+              </span>
+              <span class="hero-select__arrow"></span>
+            </button>
+          </div>
+          <div class="hero-examples">
+            <ul class="hero-examples-list list-reset">
+              <li class="hero-examples-list__item">
+                <button class="btn-reset hero-examples-list__item-btn">
+                  Узоры
+                </button>
+              </li>
+              <li class="hero-examples-list__item">
+                <button class="btn-reset hero-examples-list__item-btn">
+                  Леса
+                </button>
+              </li>
+              <li class="hero-examples-list__item">
+                <button class="btn-reset hero-examples-list__item-btn">
+                  Поля
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="hero-create-wrap">
+        <div class="hero-create">
+          <span class="hero-create__text">
+            Присоединяйтесь и загружайте больше бесплатных изображений!
+          </span>
+          <button class="btn-reset hero-create__btn">
+            Создать&nbsp;аккаунт
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="offers container">
+      <div class="offers-text-wrap">
+        <span class="offers-text-title offers-text-title--green">
+          Погрузитесь в мир
+        </span>
+        <span class="offers-text-title">
+          популярных категорий!
+        </span>
+      </div>
+      <div class="popular">
+        <div class="popular-header">
+          <h2 class="popular-header__title">
+            Популярные фотографии
+          </h2>
+          <button class="btn-reset popular-header__btn">
+            <span class="popular-header__btn-text">
+              Смотреть ещё
+            </span>
+            <span class="popular-header__btn-arrow"></span>
+          </button>
+        </div>
+        <div class="popular-body">
+          <ul class="list-reset popular-body-list">
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--1"></div>
+              <span class="popular-body-list__item-name">
+                Сосновый бор
+              </span>
+              <span class="popular-body-list__item-author">
+                Лидия
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--2"></div>
+              <span class="popular-body-list__item-name">
+                Утро в лесу
+              </span>
+              <span class="popular-body-list__item-author">
+                Анатолий
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--3"></div>
+              <span class="popular-body-list__item-name">
+                Рассвет в роще
+              </span>
+              <span class="popular-body-list__item-author">
+                Василий
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--4"></div>
+              <span class="popular-body-list__item-name">
+                Пасмурная погода в холмах
+              </span>
+              <span class="popular-body-list__item-author">
+                Ларион
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="popular">
+        <div class="popular-header">
+          <h2 class="popular-header__title">
+            Популярные GIF
+          </h2>
+          <button class="btn-reset popular-header__btn">
+            <span class="popular-header__btn-text">
+              Смотреть ещё
+            </span>
+            <span class="popular-header__btn-arrow"></span>
+          </button>
+        </div>
+        <div class="popular-body">
+          <ul class="list-reset popular-body-list">
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--5"></div>
+              <span class="popular-body-list__item-name">
+                Инопланетянин
+              </span>
+              <span class="popular-body-list__item-author">
+                Георгий
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--6"></div>
+              <span class="popular-body-list__item-name">
+                Пикачу
+              </span>
+              <span class="popular-body-list__item-author">
+                Максим
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--7"></div>
+              <span class="popular-body-list__item-name">
+                Ребёнок на лужайке
+              </span>
+              <span class="popular-body-list__item-author">
+                Анна
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--8"></div>
+              <span class="popular-body-list__item-name">
+                Эволюция
+              </span>
+              <span class="popular-body-list__item-author">
+                Егор
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="popular">
+        <div class="popular-header">
+          <h2 class="popular-header__title">
+            Популярные наборы иконок
+          </h2>
+          <button class="btn-reset popular-header__btn">
+            <span class="popular-header__btn-text">
+              Смотреть ещё
+            </span>
+            <span class="popular-header__btn-arrow"></span>
+          </button>
+        </div>
+        <div class="popular-body">
+          <ul class="list-reset popular-body-list">
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--9"></div>
+              <span class="popular-body-list__item-name">
+                Угловатые пиктограммы
+              </span>
+              <span class="popular-body-list__item-author">
+                Григорий
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--10"></div>
+              <span class="popular-body-list__item-name">
+                Офисные иконки
+              </span>
+              <span class="popular-body-list__item-author">
+                Мирослав
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--11"></div>
+              <span class="popular-body-list__item-name">
+                Округлые иконки
+              </span>
+              <span class="popular-body-list__item-author">
+                Анастасия
+              </span>
+            </li>
+            <li class="popular-body-list__item">
+              <div class="popular-body-list__item-img popular-body-list__item-img--12"></div>
+              <span class="popular-body-list__item-name">
+                Стильные иконки
+              </span>
+              <span class="popular-body-list__item-author">
+                Валентин
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="advantages-title-wrap">
+        <h2 class="advantages-title">
+          <span class="green-text">Идеальный вариант </span>для развития творчества
+        </h2>
+        <p class="advantages-descr">
+          Независимо от того, ищете ли вы готовые дизайны или захватывающие фотографии,
+          здесь всегда найдете источник вдохновения
+        </p>
+      </div>
+      <div class="advantages-cards-wrap">
+        <ul class="list-reset advantages-cards-list">
+          <li class="advantages-cards-list__item">
+            <div class="advantages-cards-list__item-img advantages-cards-list__item-img--1"></div>
+            <div class="advantages-cards-list__item-text">
+              <h3 class="advantages-cards-list__item-text-title">
+                Качественный авторский контент
+              </h3>
+              <p class="advantages-cards-list__item-text-descr">
+                Поднимите ваши проекты на новый уровень, добавив великолепные изображения,
+                видео или анимации в высоком качестве.
+              </p>
+            </div>
+          </li>
+          <li class="advantages-cards-list__item">
+            <div class="advantages-cards-list__item-img advantages-cards-list__item-img--2"></div>
+            <div class="advantages-cards-list__item-text">
+              <h3 class="advantages-cards-list__item-text-title">
+                Готовые ресурсы
+              </h3>
+              <p class="advantages-cards-list__item-text-descr">
+                Погрузитесь в огромный арсенал изображений и необычных решений на любой вкус,
+                который может восхитить любую публику.
+              </p>
+            </div>
+          </li>
+          <li class="advantages-cards-list__item">
+            <div class="advantages-cards-list__item-img advantages-cards-list__item-img--3"></div>
+            <div class="advantages-cards-list__item-text">
+              <h3 class="advantages-cards-list__item-text-title">
+                Детальный поиск
+              </h3>
+              <p class="advantages-cards-list__item-text-descr">
+                Каждый проект обретет свою уникальную визуальную концепцию и стиль,
+                способные воплотить любые из ваших потребностей и фантазий.
+              </p>
+            </div>
+          </li>
+          <li class="advantages-cards-list__item">
+            <div class="advantages-cards-list__item-img advantages-cards-list__item-img--4"></div>
+            <div class="advantages-cards-list__item-text">
+              <h3 class="advantages-cards-list__item-text-title">
+                Постоянные обновления
+              </h3>
+              <p class="advantages-cards-list__item-text-descr">
+                В нашей библиотеке всегда найдется что-то новое и вдохновляющее,
+                благодаря ежедневным обновлениям и пополнениям.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="join container">
+      <div class="join-card">
+        <div class="join-card-img"></div>
+        <div class="join-card-text">
+          <h2 class="join-card-text__title">
+            Присоединяйтесь к сообществу<span class="green-text"> авторов!</span>
+          </h2>
+          <p class="join-card-text__descr">
+            За каждым обыденным изображением скрыто творческое вдохновение. И помните, что в ваших
+            силах не только воплотить уникальный контент в жизнь, но и с легкостью представить его миру,
+            как для бесплатного использования, так и для продажи!
+          </p>
+          <button class="btn-reset join-card-text__btn">
+            <span class="join-card-text__btn-text">
+              Стать автором
+            </span>
+            <span class="join-card-text__btn-arrow"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <div class="footer-head">
+      <div class="footer-menu">
+        <div class="footer-menu-column">
+          <h3 class="footer-menu-column__title footer-menu-column__title--desktop">
+            «Маркетплейс»
+          </h3>
+          <h3 class="footer-menu-column__title footer-menu-column__title--mobile">
+            «PICTURA»
+          </h3>
+          <ul class="list-reset footer-menu-column__list">
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  О нас
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  FAQ
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Реквизиты
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Вакансии
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Связаться с нами
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu-column">
+          <h3 class="footer-menu-column__title">
+            Условия пользования
+          </h3>
+          <ul class="list-reset footer-menu-column__list">
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Об авторском праве
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Приложения
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Конфиденциальность
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Политика файлов Cookie
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Партнерская программа
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-menu-column">
+          <h3 class="footer-menu-column__title">
+            Клиентам
+          </h3>
+          <ul class="list-reset footer-menu-column__list">
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Услуги
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Акции
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Специальные предложения
+                </span>
+              </a>
+            </li>
+            <li class="footer-menu-column__list-item">
+              <a class="footer-menu-column__list-item-link" href="">
+                <span class="footer-menu-column__list-item-link-arrow"></span>
+                <span class="footer-menu-column__list-item-link-text">
+                  Подписка
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-describe">
+        <p class="footer-describe__descr">
+          Подписывайтесь на рассылку, чтобы быть в курсе последних новостей и обновлений!
+        </p>
+        <form class="footer-describe__form" action="">
+          <input class="footer-describe__form-input" type="text" placeholder="Адрес электронной почты">
+          <button class="btn-reset footer-describe__form-btn">
+            Подписаться
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <a class="footer-bottom__link" href="tel:+79164865555">
+        +7 916 486 5555
+      </a>
+      <a class="footer-bottom__link" href="mailto:info@pictura.ru">
+        info@pictura.ru
+      </a>
+      <span class="footer-bottom__text">
+        © 2023 «Маркетплейс графических изображений»<br>Все права защищены
+      </span>
+      <span class="footer-bottom__text footer-bottom__text--montserrat">
+        © 2024, «PICTURA»<br>Все права защищены
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
